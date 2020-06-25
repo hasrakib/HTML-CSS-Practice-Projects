@@ -66,3 +66,22 @@ body{
 .footer p a {
     color: #456AFF;
 }
+
+
+@media (max-width: 1220px) {
+    .body {
+        width: 100%;
+        padding: 0 30px;
+        display: flex;
+    }
+}
+
+@media (max-width: 940px) {
+    .body {
+        width: 100%;
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
